@@ -100,7 +100,7 @@ namespace Klarna.Rest.Core.Model
         /// <summary>
         /// Ids for custom payment methods available in a given order. Only applicable in GB/US sessions.
         /// </summary>
-        [JsonProperty(PropertyName = "customer_payment_method_ids")]
+        [JsonProperty(PropertyName = "custom_payment_method_ids")]
         public ICollection<string> CustomPaymentMethodIds { get; set; }
         /// <summary>
         /// The current status of the session. Possible values: 'complete', 'incomplete' where 'complete' is set when the order has been placed.
